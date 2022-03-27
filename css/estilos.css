@@ -1,0 +1,50 @@
+/* ESTILOS GENERALES */
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#000;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+h1{
+    font-weight: 600;
+}
+img{
+    width: 500px;
+    border-radius: 12%;
+}
+
+#particles-js {
+	height: 100vh; 
+	width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.fecha{
+    font-weight: 700;
+}
+
+.contenedo {
+	width: 90%;
+	max-width: 1200px;
+    background-size: cover;
+
+    background-position:center;
+	margin-left: auto; 
+	margin-right: auto;
+    margin-top: 15px;
+    padding: 20px 30px;
+    position: relative;
+    z-index: 99;
+    opacity: .85;
+}
+.txtimg{
+    font-weight: 600;
+}
